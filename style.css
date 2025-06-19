@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+body.break {
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#phaseLabel {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#timer {
+  font-size: 64px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+#summary {
+  margin-top: 20px;
+}
+
+#settings {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 14px;
+}
+
+#subjectInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* ミュートボタン */
+#muteToggle {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 480px) {
+  #timer {
+    font-size: 48px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  #muteToggle {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+}
